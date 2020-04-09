@@ -1,0 +1,32 @@
+Cloning into 'FFmpeg'...
+Checking out files: 100% (7264/7264), done.
+gcc is unable to create an executable file.
+If gcc is a cross-compiler, use the --enable-cross-compile option.
+Only do this if you know what cross compiling means.
+C compiler test failed.
+
+If you think configure made a mistake, make sure you are using the latest
+version from Git.  If the latest version fails, report the problem to the
+ffmpeg-user@ffmpeg.org mailing list or IRC #ffmpeg on irc.freenode.net.
+Include the log file "ffbuild/config.log" produced by configure as this will help
+solve the problem.
+Makefile:2: ffbuild/config.mak: No such file or directory
+Makefile:40: /tools/Makefile: No such file or directory
+Makefile:41: /ffbuild/common.mak: No such file or directory
+Makefile:97: /libavutil/Makefile: No such file or directory
+Makefile:97: /ffbuild/library.mak: No such file or directory
+Makefile:99: /fftools/Makefile: No such file or directory
+Makefile:100: /doc/Makefile: No such file or directory
+Makefile:101: /doc/examples/Makefile: No such file or directory
+Makefile:167: /tests/Makefile: No such file or directory
+make: *** No rule to make target '/tests/Makefile'.  Stop.
+Makefile:2: ffbuild/config.mak: No such file or directory
+Makefile:40: /tools/Makefile: No such file or directory
+Makefile:41: /ffbuild/common.mak: No such file or directory
+Makefile:97: /libavutil/Makefile: No such file or directory
+Makefile:97: /ffbuild/library.mak: No such file or directory
+Makefile:99: /fftools/Makefile: No such file or directory
+Makefile:100: /doc/Makefile: No such file or directory
+Makefile:101: /doc/examples/Makefile: No such file or directory
+Makefile:167: /tests/Makefile: No such file or directory
+make: *** No rule to make target '/tests/Makefile'.  Stop.
